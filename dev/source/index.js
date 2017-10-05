@@ -38,9 +38,9 @@ class App extends React.Component{
                     autoVp="fit"
                     mapConfig={this.mapConfig}
                     ibConfig={config.infoBuble}>
-                    <Marker lat={41.714} lng={-73.005} iconConfig={null}/>
-                    <Marker lat={40.714} lng={-72.005} iconConfig={null}/>
-                    <Marker lat={40.714} lng={-74.005} iconConfig={null}/>
+                    <Marker lat={41.714} lng={-73.005} iconConfig={null} data={{}}/>
+                    <Marker lat={40.714} lng={-72.005} iconConfig={null} data={{}}/>
+                    <Marker lat={40.714} lng={-74.005} iconConfig={null} data={{}}/>
                 </Gmap>
             ):null
         );
