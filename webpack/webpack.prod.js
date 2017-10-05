@@ -42,6 +42,9 @@ module.exports = {
             }
         ]
     },
+    externals: {
+        React: 'React'
+    },
     devtool:'cheap-module-source-map',
     plugins:[
         new HtmlWebpackPlugin({

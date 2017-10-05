@@ -1,27 +1,19 @@
-import 'babel-polyfill';
-import '../styles/style.styl';
-export const test1 = {
-    title:'Test'
-};
-export const test2 = {
-    title:'Test2'
-};
-export const test3 = class Test3{
-    constructor(){
+//import 'babel-polyfill';
+import gmaps from 'gmaps-lib';
+import Gmap from './gmap';
+import Marker from './marker';
 
-    }
-    static title(){
-        return 'Test3';
-    }
+
+const apiLoader = gmaps.apiLoader;
+
+export {
+    apiLoader,
+    Gmap,
+    Marker
 };
-export let test4 = new Promise((resolve, reject) => {
-    setTimeout(function(){
-        resolve('Success!');
-    }, 3000);
-});
+
 export default {
-    test1,
-    test2,
-    test3,
-    test4
+    apiLoader,
+    Gmap,
+    Marker
 };

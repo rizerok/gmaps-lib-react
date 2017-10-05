@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "gmaps + react",
   "main": "dist/lib.js",
-  "module": "source/lib/lib.js",
+  "module": "source/components/lib.js",
   "scripts": {
     "build:dev": "webpack --progress --env=dev",
     "build:lib": "webpack --progress --env=lib",
@@ -24,6 +24,7 @@
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.7",
@@ -45,7 +46,8 @@
   ],
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "gmaps-lib": "0.0.1",
-    "react": "^16.0.0"
+    "gmaps-lib": "0.0.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }

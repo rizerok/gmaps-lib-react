@@ -35,14 +35,18 @@ module.exports = {
                 ]
             },
             {
-                test:/\.js$/,
-                include:path.resolve('source','lib'),
+                test:/\.(js|jsx)$/,
+                include:[
+                    path.resolve('source','lib'),
+                    path.resolve('dev','source')
+                ],
                 use:{
                     loader:'babel-loader',
                     options:{
                         presets:[
                             'env',//https://babeljs.io/docs/plugins/preset-env/
-                            'stage-3',//https://babeljs.io/docs/plugins/preset-stage-3/
+                            'react',
+                            'stage-3'//https://babeljs.io/docs/plugins/preset-stage-3/
                         ],
                         plugins:[
                             'transform-decorators-legacy'
