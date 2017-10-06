@@ -1,6 +1,6 @@
 {
   "name": "gmaps-lib-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gmaps + react",
   "main": "dist/lib.js",
   "module": "source/components/lib.js",
