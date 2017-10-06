@@ -3,7 +3,6 @@
   "version": "0.0.2",
   "description": "gmaps + react",
   "main": "dist/lib.js",
-  "module": "source/components/lib.js",
   "scripts": {
     "build:dev": "webpack --progress --env=dev",
     "build:lib": "webpack --progress --env=lib",
