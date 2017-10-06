@@ -38,7 +38,8 @@ module.exports = {
                 test:/\.(js|jsx)$/,
                 include:[
                     path.resolve('source','lib'),
-                    path.resolve('dev','source')
+                    path.resolve('dev','source'),
+                    path.resolve('demo','handled','demo1','source')
                 ],
                 use:{
                     loader:'babel-loader',
