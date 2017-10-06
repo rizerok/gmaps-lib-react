@@ -28,7 +28,7 @@ export default {
         disableAutoPan: true,
         hideCloseButton: true,
         arrowPosition: 50,//позиция в %
-        backgroundClassName: 'b-map-info-window__shadow',
+        backgroundClassName: 'gmapsInfoBubble',
         arrowStyle: 0,//0-4
         maxWidth:300,
         minWidth:300

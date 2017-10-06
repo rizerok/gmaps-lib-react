@@ -46,7 +46,7 @@
   ],
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "gmaps-lib": "0.0.2",
+    "gmaps-lib": "0.0.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   }
