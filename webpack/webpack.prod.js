@@ -43,7 +43,8 @@ module.exports = {
         ]
     },
     externals: {
-        React: 'React'
+        react: 'React',
+        ['react-dom']: 'ReactDOM'
     },
     devtool:'cheap-module-source-map',
     plugins:[
